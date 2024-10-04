@@ -1,5 +1,5 @@
-import { useState } from 'react';
 import './Form.css';
+import { useState } from 'react';
 
 function Form({ addIdea }){
   const [title, setTitle] = useState("");
